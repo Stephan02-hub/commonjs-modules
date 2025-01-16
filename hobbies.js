@@ -1,6 +1,5 @@
 function hobby(hobby1, hobby2,hobby3) {
-    return {play,musica,sport
-    }
+    return [hobby1,hobby2,hobby3]
 };
 
 module.exports = hobby;
