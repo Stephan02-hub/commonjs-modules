@@ -1,15 +1,15 @@
 const persona = require('./name.js');
-const name = persona("Stephan", "Braghese");
+const person = persona("Stephan", "Braghese");
 
 
 const hobby = require('./hobbies.js')
-const hobby = hobby("play", "musica", "sport")
+const hobbys = hobby("play", "musica", "sport")
 
 
 function io() {
     return {
-        fullName: name,
-        hobbies : hobby
+        fullName: person,
+        hobbies : hobbys
     }
 }
 
